@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Password Generator</h1>
+      <div class="content">
+        <label for="passwordLength">Panjang Password</label>
+        <input type="text" id="passwordLength" />
+        <label for="password">Password</label>
+        <input type="text" id="password" />
+      </div>
+      <button onclick="handlerGenerator()">Generate Password</button>
+      <button onclick="handlerDetector()">Detector Password</button>
+      <button onclick="handlerReset()">Reset</button>
+      <div class="detector">
+        <h1 id="1">3 Huruf besar</h1>
+        <h1 id="2">3 Huruf kecil</h1>
+        <h1 id="3">2 Nomor</h1>
+        <h1 id="4">2 Symbol</h1>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
